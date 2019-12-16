@@ -1,0 +1,13 @@
+
+#header{
+    display: flex;
+    width: 100vw;
+    height: 125px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 55px;
+    background-color: bisque;
+
+}   
+

@@ -1,0 +1,52 @@
+ .completed{
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    align-content: space-around;
+    /* border: 2px solid green; */
+    box-sizing: border-box;
+    width: 30vw;
+    overflow: scroll;
+    top: 100px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 45px;
+
+}
+
+#completedtitle{
+   text-decoration: underline;
+}
+
+#completed_image{
+    height: 350px;
+    width: 400px;
+    border-radius: 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    /* background: transparent no-repeat center;
+    background-size: cover; */
+    /* align-items: center; */
+    /* object-fit: cover; */
+}
+
+#delete_button2{
+ 
+    font-size: 20px;
+    border-radius: 10%;
+}
+
+#description2{
+    text-align: center;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type=text]{
+    display: inline-block;
+}

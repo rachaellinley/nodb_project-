@@ -1,0 +1,39 @@
+.events{
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    align-content: space-around;
+    /* border: 2px solid green; */
+    box-sizing: border-box;
+    /* height: 80vh; */
+    width: 30vw;
+    /* overflow: scroll; */
+    /* top: 100px; */
+    font-family: 'Amatic SC', cursive;
+    font-size: 45px;
+}
+
+.event_image{
+    height: 350px;
+    width: 400px;
+    border-radius: 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    
+}
+
+#description{
+    text-align: center;
+}
+
+#future {
+    text-decoration: underline;
+}
+
+#delete_button{
+
+    font-size: 20px;
+    border-radius: 10%;
+}
