@@ -28,7 +28,10 @@ class App extends React.Component {
         this.setState({
             events: response.data
         })
-    })
+    }).catch(err => {
+      console.log(err);
+      //if the axios comes back with a bad status comes back, it allows you to run some code
+    });
 
     axios.get("/api/completed").then(response => {
       this.setState({
@@ -56,7 +59,6 @@ deleteCompleted = (id) => {
           completed: response.data
       })
   })
-
 }
 
 editCompleted = (id, newValue) => {

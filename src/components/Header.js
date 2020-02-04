@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Header.css"
-
+//functional components
 
     class Header extends React.Component {
         constructor(){

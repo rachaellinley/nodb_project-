@@ -8,9 +8,6 @@ class FutureEvents extends React.Component {
            
         }
     }
-
-   
-
     render(){
         console.log(this.state.events)
         return(

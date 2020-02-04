@@ -10,7 +10,7 @@ import "../styles/Footer.css"
         render(){
             return(
                 <div id="footer">
-                  
+                  "Created by Rachael Sultzman"
                 </div>
             )
         }

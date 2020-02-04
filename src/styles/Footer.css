@@ -1,8 +1,8 @@
-#footer{
+  #footer{
     display: flex;
     width: 100vw;
     /* height: 7vh; */
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
     background-color: grey;
-}
+  }  
